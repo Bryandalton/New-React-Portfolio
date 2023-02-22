@@ -23,10 +23,10 @@ body {
   margin-bottom: -5rem;
 }
 
-#menu {  
+#menu {
   align-items: center;
   display: flex;
-  border: solid 1px white
+  border: solid 1px white;
 }
 
 #menu-items {
@@ -69,7 +69,7 @@ body {
 
 #menu-background-pattern {
   background-image: radial-gradient(
-    rgba(255, 255, 255, 0.1) 9%, 
+    rgba(255, 255, 255, 0.1) 9%,
     transparent 9%
   );
   background-position: 0% 0%;
@@ -78,24 +78,22 @@ body {
   left: 0px;
   position: absolute;
   top: 0px;
-  transition: opacity 800ms ease, 
-    background-size 800ms ease,
+  transition: opacity 800ms ease, background-size 800ms ease,
     background-position 800ms ease;
   width: 100vw;
   z-index: 1;
 }
 
 #menu-background-image {
-  background-image: url('../public/images/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg');
+  background-image: url("../public/images/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg");
   background-position: center 40%;
   background-size: 110vmax;
   height: 100%;
-  left: 0px;  
+  left: 0px;
   opacity: 0.15;
   position: absolute;
   top: 0px;
-  transition: opacity 800ms ease,
-    background-size 800ms ease,
+  transition: opacity 800ms ease, background-size 800ms ease,
     background-position 800ms ease;
   width: 100%;
   z-index: 0;
@@ -116,68 +114,81 @@ body {
 }
 
 #menu-items:hover > .menu-item:hover {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .menu-item {
   color: white;
   cursor: pointer;
   display: block;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
   font-size: clamp(3rem, 8vw, 6rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
   transition: opacity 400ms ease;
 }
 
-/* -- YouTube Link Styles -- */
-
-body.menu-toggled > .meta-link > span {
-  color: rgb(30, 30, 30);
+.project-grid {
+  display: grid;
+  grid-template-columns: 33% 33%;
+  justify-content: space-around;
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 6rem;
 }
 
-#source-link {
-  bottom: 60px;
+.project-grid img {
+  width: 100%;
 }
 
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-#yt-link > i {
-  color: rgb(239, 83, 80);
-}
-
-.meta-link {
-  align-items: center;
-  backdrop-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-  bottom: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;  
-  display: inline-flex;
-  gap: 5px;
-  left: 10px;
-  padding: 10px 20px;
-  position: fixed;
-  text-decoration: none;
-  transition: background-color 400ms, border-color 400ms;
-  z-index: 10000;
-}
-
-.meta-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.meta-link > i, .meta-link > span {
-  height: 20px;
-  line-height: 20px;
-}
-
-.meta-link > span {
+.projectLinks {
   color: white;
-  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.featured {
+  display: flex;
+  width: 50%;
+  margin: 4rem auto;
+}
+
+/* .featured a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+} */
+
+.featured img {
+  width: 100%;
+}
+
+@media screen and (max-width: 45em) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  .featured img {
+    display: grid;
+    grid-template-columns: 50%;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  .featured {
+    margin-bottom: 4rem;
+  }
 }

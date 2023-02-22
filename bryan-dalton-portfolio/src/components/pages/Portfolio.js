@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../Project';
+import Project from '../project';
 
 const projects  = [
   {
@@ -39,6 +39,13 @@ export default function Portfolio() {
   return (
     <div className='container'>
       <h3>Portfolio</h3>
+      <div className='featured'>
+        <Project link= {featured.link} 
+          img= {featured.img}
+          name = {featured.name}
+          github = {featured.github}/>
+      </div>
+
       <div className='project-grid'>
       {projects.map((project) => {
         return <Project link={project.link}
