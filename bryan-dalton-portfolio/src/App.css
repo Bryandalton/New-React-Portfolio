@@ -244,6 +244,31 @@ body {
   opacity: 5;
 }
 
+.contactGrid {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 33% 33%;
+  justify-content: space-between;
+}
+
+.contactGrid a{
+  color: white;
+  text-decoration: none;
+}
+
+.contactGrid a:hover{
+  text-decoration: underline;
+}
+
+#contactGit {
+  height: 64px;
+  width: 64px;
+  opacity: 0.5;
+}
+
+#contactGit:hover {
+  opacity: 1;
+}
 @media screen and (max-width: 45em) {
   .project-grid {
     display: grid;

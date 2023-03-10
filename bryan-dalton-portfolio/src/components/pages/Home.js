@@ -13,6 +13,9 @@ export default function Home() {
         <Link className="menu-item" to="/contact">
           Contact
         </Link>
+        <Link className="menu-item" to="/resume">
+        Resume
+        </Link>
       </div>
       <div id="menu-background-pattern"></div>
       <div id="menu-background-image"></div>

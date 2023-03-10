@@ -8,10 +8,12 @@ function Contact() {
       <div className="aboutContainer">
         <div className="aboutCard">
           <h3>Contact Me:</h3>
+          <div className="contactGrid">
           <p>Phone: (434) 250-5507</p>
-          <p> Email: <a href='mailto:bryantdalton19@gmail.com'>bryantdalton19@gmail.com</a></p>
+            <a href='mailto:bryantdalton19@gmail.com'>bryantdalton19@gmail.com</a>
           <p><a href="https://www.linkedin.com/in/bryan-dalton1/"> Linkedin</a></p>
-          <a href="https://github.com/Bryandalton"><img id='git' alt='github white' src='/github-white.png'></img></a>
+          <a href="https://github.com/Bryandalton"><img id='contactGit' alt='github white' src='/github-white.png'></img></a>
+          </div>
         </div>
       </div>
     </div>
