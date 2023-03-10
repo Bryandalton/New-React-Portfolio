@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../project';
+import backBtn from '../BackBtn';
 
 const projects  = [
   {
@@ -38,6 +39,7 @@ const featured = {
 export default function Portfolio() {
   return (
     <div className='container'>
+      <backBtn />
       <h3>Portfolio</h3>
       <div className='featured'>
         <Project link= {featured.link} 
