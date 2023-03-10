@@ -4,9 +4,9 @@ import{Link} from "react-router-dom"
 
 function backBtn () {
     return(
-<div className='back'>
+<div >
     <Link to="/">
-        <img src='./backArrowWhite' alt='Back Arrow'></img>
+        <img className='back' src='./backArrowWhite.png' alt='Back Arrow'></img>
     </Link>
 </div>
 )}

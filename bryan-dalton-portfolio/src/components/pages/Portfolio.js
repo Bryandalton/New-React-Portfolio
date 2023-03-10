@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../project';
-import backBtn from '../BackBtn';
+import BackBtn from '../BackBtn';
 
 const projects  = [
   {
@@ -39,8 +39,7 @@ const featured = {
 export default function Portfolio() {
   return (
     <div className='container'>
-      <backBtn />
-      <h3>Portfolio</h3>
+      <BackBtn />
       <div className='featured'>
         <Project link= {featured.link} 
           img= {featured.img}
