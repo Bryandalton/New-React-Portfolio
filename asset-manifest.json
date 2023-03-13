@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/New-React-Portfolio/static/css/main.00debf2f.css",
-    "main.js": "/New-React-Portfolio/static/js/main.54553041.js",
-    "static/media/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg": "/New-React-Portfolio/static/media/michael-dziedzic-qDG7XKJLKbs-unsplash.9e30f8f36e826981c668.jpg",
-    "index.html": "/New-React-Portfolio/index.html",
-    "main.00debf2f.css.map": "/New-React-Portfolio/static/css/main.00debf2f.css.map",
-    "main.54553041.js.map": "/New-React-Portfolio/static/js/main.54553041.js.map"
+    "main.css": "./static/css/main.9a95a115.css",
+    "main.js": "./static/js/main.54553041.js",
+    "static/media/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg": "./static/media/michael-dziedzic-qDG7XKJLKbs-unsplash.9e30f8f36e826981c668.jpg",
+    "index.html": "./index.html",
+    "main.9a95a115.css.map": "./static/css/main.9a95a115.css.map",
+    "main.54553041.js.map": "./static/js/main.54553041.js.map"
   },
   "entrypoints": [
-    "static/css/main.00debf2f.css",
+    "static/css/main.9a95a115.css",
     "static/js/main.54553041.js"
   ]
 }
