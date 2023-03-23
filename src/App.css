@@ -175,6 +175,10 @@ body {
   margin: 4rem auto;
 }
 
+.description {
+  text-align: center;
+}
+
 .container {
   position: relative;
   z-index: 10;
