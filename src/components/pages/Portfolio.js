@@ -12,18 +12,19 @@ const projects = [
       "Website to display artwork from Chicago and Harvard art APIs.",
   },
   {
-    img: "./images/Ripened-potatos-screenshot.jpg",
-    name: "Ripened Potatoes",
-    link: "https://ripened-potatos.herokuapp.com/",
-    github: "https://github.com/Bryandalton/Ripened_Potatoes",
-    description: '"Bad" movie review site.',
+    img: "./images/kandy-karma.jpg",
+    name: "Kandy Karma",
+    link: "https://pure-coast-28211.herokuapp.com/",
+    github: "https://github.com/Bryandalton/kandy-karma",
+    description: "Mock market research site for candy.",
   },
   {
     img: "./images/WeatherServiceScreenshot.jpg",
     name: "Weather Service",
     link: "https://bryandalton.github.io/Weather-service/",
     github: "https://github.com/Bryandalton/Weather-service",
-    description: "Displays the weather, five day forecast, and remembers last city selected.",
+    description:
+      "Displays the weather, five day forecast, and remembers last city selected.",
   },
   {
     img: "./images/Bigfootbutton.jpg",
@@ -35,11 +36,11 @@ const projects = [
 ];
 
 const featured = {
-  img: "./images/kandy-karma.jpg",
-  name: "Kandy Karma",
-  link: "https://pure-coast-28211.herokuapp.com/",
-  github: "https://github.com/Bryandalton/kandy-karma",
-  description: "Mock market research site for candy.",
+  img: "./images/Ripened-potatos-screenshot.jpg",
+  name: "Ripened Potatoes",
+  link: "https://ripened-potatos.herokuapp.com/",
+  github: "https://github.com/Bryandalton/Ripened_Potatoes",
+  description: '"Bad" movie review site.',
 };
 
 export default function Portfolio() {

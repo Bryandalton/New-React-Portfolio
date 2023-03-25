@@ -192,6 +192,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 3rem;
 }
 .aboutCard {
   background: linear-gradient(
@@ -224,6 +225,12 @@ body {
   height: auto;
   align-self: center;
   padding: 5rem;
+}
+
+.profilePic {
+  width: 35vw;
+  height: auto;
+  padding-right: 1rem;
 }
 
 .aboutCard h3 {

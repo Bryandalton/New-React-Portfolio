@@ -6,6 +6,7 @@ function About() {
     <div className="container">
       <BackBtn />
       <div className="aboutContainer">
+      <img className='profilePic' alt="" src="./images/profilePic2.jpg"></img>
         <div className="aboutCard">
           <h3>About Me:</h3>
           <p>
