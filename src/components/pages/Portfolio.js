@@ -1,6 +1,8 @@
 import React from "react";
 import Project from "../project";
 import BackBtn from "../BackBtn";
+import NavBar from "../NavBar";
+
 
 const projects = [
   {
@@ -46,6 +48,7 @@ const featured = {
 export default function Portfolio() {
   return (
     <div className="container">
+      <NavBar/>
       <BackBtn />
       <div className="featured">
         <Project

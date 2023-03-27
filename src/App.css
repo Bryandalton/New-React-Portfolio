@@ -281,6 +281,27 @@ body {
 .contactLogo:hover {
   opacity: 1;
 }
+
+.navBar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+  margin-top: -2rem;
+}
+
+.navBar a{
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.navBar a:hover{
+  opacity: 1;
+}
+
 @media screen and (max-width: 45em) {
   .project-grid {
     display: grid;

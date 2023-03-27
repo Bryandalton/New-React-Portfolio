@@ -1,7 +1,10 @@
 import React from "react";
 import BackBtn from "../BackBtn";
+import NavBar from "../NavBar";
+
 
 function Contact() {
+  <NavBar/>
   return (
     <div className="container">
       <BackBtn />

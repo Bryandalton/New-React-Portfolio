@@ -1,9 +1,11 @@
 import React from "react";
 import BackBtn from "../BackBtn";
+import NavBar from "../NavBar";
 
 function About() {
   return (
     <div className="container">
+      <NavBar/>
       <BackBtn />
       <div className="aboutContainer">
       <img className='profilePic' alt="" src="./images/profilePic2.jpg"></img>
