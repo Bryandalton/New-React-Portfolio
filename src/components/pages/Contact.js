@@ -7,6 +7,7 @@ function Contact() {
   <NavBar/>
   return (
     <div className="container">
+      <NavBar />
       <BackBtn />
       <div className="aboutContainer">
         <div className="aboutCard">
