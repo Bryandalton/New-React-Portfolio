@@ -1,5 +1,4 @@
 import React from "react";
-import BackBtn from "../BackBtn";
 import NavBar from "../NavBar";
 
 
@@ -8,7 +7,6 @@ function Contact() {
   return (
     <div className="container">
       <NavBar />
-      <BackBtn />
       <div className="aboutContainer">
         <div className="aboutCard">
           <h3>Contact Me:</h3>

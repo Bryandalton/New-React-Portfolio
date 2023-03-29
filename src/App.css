@@ -285,6 +285,7 @@ body {
 .navBar {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   gap: 2rem;
@@ -302,6 +303,29 @@ body {
   opacity: 1;
 }
 
+@media screen and (max-width: 1600px) {
+  .aboutContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+  }
+  .profilePic{
+    padding: 0;
+  }
+  .contactGrid{
+    grid-template-columns: 50%;
+  }
+}
+
 @media screen and (max-width: 45em) {
   .project-grid {
     display: grid;
@@ -309,17 +333,11 @@ body {
     justify-content: center;
     align-items: center;
   }
-}
-
-@media screen and (max-width: 45em) {
   .featured img {
     display: grid;
     grid-template-columns: 50%;
   }
-}
-
-@media screen and (max-width: 45em) {
-  .featured {
+   .featured {
     margin-bottom: 4rem;
   }
 }

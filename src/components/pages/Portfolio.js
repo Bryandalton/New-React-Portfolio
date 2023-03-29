@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "../project";
-import BackBtn from "../BackBtn";
 import NavBar from "../NavBar";
 
 
@@ -49,7 +48,6 @@ export default function Portfolio() {
   return (
     <div className="container">
       <NavBar/>
-      <BackBtn />
       <div className="featured">
         <Project
           link={featured.link}
