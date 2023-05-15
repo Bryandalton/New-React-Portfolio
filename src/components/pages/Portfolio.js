@@ -15,8 +15,8 @@ const projects = [
   {
     img: "./images/kandy-karma.jpg",
     name: "Kandy Karma",
-    link: "https://pure-coast-28211.herokuapp.com/",
-    github: "https://github.com/Bryandalton/kandy-karma",
+    link: "https://bryandalton.github.io/kandykarmafrontend/",
+    github: "https://github.com/Bryandalton/kandykarmafrontend",
     description: "Mock market research site for candy.",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     name: "Bigfoot Button",
     link: "https://codepen.io/Iwritebadcode/full/mdXdxpz",
     github: "https://codepen.io/Iwritebadcode/pen/mdXdxpz",
-    description: 'Shiny button that plays a "bigfoot" noise when clicked.',
+    description: 'Neon button that plays a "bigfoot" noise when clicked.',
   },
 ];
 
@@ -41,7 +41,7 @@ const featured = {
   name: "Ripened Potatoes",
   link: "https://ripened-potatos.herokuapp.com/",
   github: "https://github.com/Bryandalton/Ripened_Potatoes",
-  description: '"Bad" movie review site.',
+  description: '"Bad" movie review site. TEMPORARILY DOWN!',
 };
 
 export default function Portfolio() {
