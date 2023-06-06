@@ -2,6 +2,7 @@
 ## Description
 
 A personal portfolio to display my projects to potential employers.
+Find live site at: https://bryantdalton.netlify.app/#/
 
 ## Installation
 

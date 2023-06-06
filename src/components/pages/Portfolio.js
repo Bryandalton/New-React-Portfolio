@@ -37,11 +37,11 @@ const projects = [
 ];
 
 const featured = {
-  img: "./images/Ripened-potatos-screenshot.jpg",
-  name: "Ripened Potatoes",
-  link: "https://ripened-potatos.herokuapp.com/",
-  github: "https://github.com/Bryandalton/Ripened_Potatoes",
-  description: '"Bad" movie review site. TEMPORARILY DOWN!',
+  img: "./images/cryptsndbrd.png",
+  name: "Cryptid Sound Board",
+  link: "https://bryandalton.github.io/cryptidsoundboard/",
+  github: "https://github.com/Bryandalton/cryptidsoundboard",
+  description: 'A fun and responsive site to see what sounds cryptids might make!',
 };
 
 export default function Portfolio() {
