@@ -2,7 +2,6 @@ import React from "react";
 import Project from "../project";
 import NavBar from "../NavBar";
 
-
 const projects = [
   {
     img: "./images/Paint Your Mood.png",
@@ -34,20 +33,29 @@ const projects = [
     github: "https://codepen.io/Iwritebadcode/pen/mdXdxpz",
     description: 'Neon button that plays a "bigfoot" noise when clicked.',
   },
+  {
+    img: "./images/cryptsndbrd.png",
+    name: "Cryptid Sound Board",
+    link: "https://bryandalton.github.io/cryptidsoundboard/",
+    github: "https://github.com/Bryandalton/cryptidsoundboard",
+    description:
+      "A fun and responsive site to see what sounds cryptids might make!",
+  },
 ];
 
 const featured = {
-  img: "./images/cryptsndbrd.png",
-  name: "Cryptid Sound Board",
-  link: "https://bryandalton.github.io/cryptidsoundboard/",
-  github: "https://github.com/Bryandalton/cryptidsoundboard",
-  description: 'A fun and responsive site to see what sounds cryptids might make!',
+  img: "./images.mfhf.PNG",
+  name: "My Favorite Historical Figures",
+  link: "https://bryandalton.github.io/my_favorite_historical_figure/",
+  github: "https://github.com/Bryandalton/my_favorite_historical_figure",
+  description:
+    "React site that offers a list of historical figures, shows a map of a location important to the active figure, and has a collapsible profile for the active figure.",
 };
 
 export default function Portfolio() {
   return (
     <div className="container">
-      <NavBar/>
+      <NavBar />
       <div className="featured">
         <Project
           link={featured.link}
