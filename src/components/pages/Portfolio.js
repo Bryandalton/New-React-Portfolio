@@ -44,7 +44,7 @@ const projects = [
 ];
 
 const featured = {
-  img: "./images.mfhf.PNG",
+  img: "./images/mfhf.PNG",
   name: "My Favorite Historical Figures",
   link: "https://bryandalton.github.io/my_favorite_historical_figure/",
   github: "https://github.com/Bryandalton/my_favorite_historical_figure",
