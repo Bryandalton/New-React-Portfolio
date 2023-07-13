@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.27185621.css",
-    "main.js": "./static/js/main.b306e261.js",
+    "main.js": "./static/js/main.4a5b8577.js",
     "static/media/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg": "./static/media/michael-dziedzic-qDG7XKJLKbs-unsplash.9e30f8f36e826981c668.jpg",
     "index.html": "./index.html",
     "main.27185621.css.map": "./static/css/main.27185621.css.map",
-    "main.b306e261.js.map": "./static/js/main.b306e261.js.map"
+    "main.4a5b8577.js.map": "./static/js/main.4a5b8577.js.map"
   },
   "entrypoints": [
     "static/css/main.27185621.css",
-    "static/js/main.b306e261.js"
+    "static/js/main.4a5b8577.js"
   ]
 }
