@@ -136,45 +136,10 @@ body {
   text-decoration: none;
   transition: opacity 400ms ease;
 }
-.project {
-  width: 20vw;
-  border: 1rem solid red;
-  object-fit: contain;
-}
-.projectLinks {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
-.projectLinks > img {
-  flex: 0 0 calc(100% / var(--items-per-screen));
-  max-width: calc(100% / var(--items-per-screen));
-  aspect-ratio: 16 / 9;
-  padding: var(--img-gap);
-  border-radius: 1rem;
-}
-
-.projectLinks:hover {
-  text-decoration: underline;
-}
-
-.description {
-  text-align: center;
-}
 
 .container {
   position: relative;
   z-index: 10;
-}
-
-.featured img {
-  width: 100%;
 }
 
 .aboutContainer {
