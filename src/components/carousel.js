@@ -69,11 +69,11 @@ export default function Carousel() {
       <NavBar />
       <div className="carousel-container">
         <button onClick={onPrevClick} className="handle left-handle">&#8249;</button>
-        {/* <div className="slider" style={{'--slider-index': `${sliderIndex}`}}> */}
         <div className="slider">
           {projects.map((project) => {
             return (
               <Project
+                key={project.name}
                 link={project.link}
                 img={project.img}
                 name={project.name}
