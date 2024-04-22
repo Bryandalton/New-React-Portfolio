@@ -55,7 +55,7 @@
 
 .slider{
     --items-per-screen: 3;
-    --slider-index: 0;
+    /* --slider-index: 0; */
     display: flex;
     flex-grow: 1;
     margin: 0 var(--img-gap);
@@ -96,12 +96,12 @@
 
 @media (max-width: 1000px) {
     .slider {
-      --items-per-screen: 3;
+      --items-per-screen: 2;
     }
   }
   
   @media (max-width: 500px) {
     .slider {
-      --items-per-screen: 2;
+      --items-per-screen: 1;
     }
   }
