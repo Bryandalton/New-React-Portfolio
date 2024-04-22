@@ -4,6 +4,14 @@ import NavBar from "../NavBar";
 
 const projects = [
   {
+    img: "./images/mfhf.PNG",
+    name: "My Favorite Historical Figures",
+    link: "https://bryandalton.github.io/my_favorite_historical_figure/",
+    github: "https://github.com/Bryandalton/my_favorite_historical_figure",
+    description:
+      "React site that offers a list of historical figures, shows a map of a location important to the active figure, and has a collapsible profile for the active figure.",
+  },
+  {
     img: "./images/cryptsndbrd.PNG",
     name: "Cryptid Sound Board",
     link: "https://bryandalton.github.io/cryptidsoundboard/",

@@ -10,6 +10,8 @@ function navBar () {
                 <li><Link to='/about'>About</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
                 <li><Link to='/resume'>Resume</Link></li>
+                <li><Link to='/carousel'>Carousel</Link></li>
+
             </ul>
         </div>
     )

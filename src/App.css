@@ -136,22 +136,11 @@ body {
   text-decoration: none;
   transition: opacity 400ms ease;
 }
-
-.project-grid {
-  display: grid;
-  grid-template-columns: 33% 33%;
-  justify-content: space-around;
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  margin-bottom: 6rem;
+.project {
+  width: 20vw;
+  border: 1rem solid red;
+  object-fit: contain;
 }
-
-.project-grid img {
-  width: 100%;
-}
-
 .projectLinks {
   color: white;
   display: flex;
@@ -163,14 +152,16 @@ body {
   font-size: 1.3rem;
 }
 
-.projectLinks:hover {
-  text-decoration: underline;
+.projectLinks > img {
+  flex: 0 0 calc(100% / var(--items-per-screen));
+  max-width: calc(100% / var(--items-per-screen));
+  aspect-ratio: 16 / 9;
+  padding: var(--img-gap);
+  border-radius: 1rem;
 }
 
-.featured {
-  display: flex;
-  width: 50%;
-  margin: 4rem auto;
+.projectLinks:hover {
+  text-decoration: underline;
 }
 
 .description {
