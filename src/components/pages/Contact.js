@@ -29,8 +29,8 @@ function Contact() {
               <img
                 className="contactLogo"
                 id="contactGit"
-                alt="github white"
-                src="/github-white.png"
+                alt="Github"
+                src="./images/github-white.png"
               ></img>
             </a>
           </div>
