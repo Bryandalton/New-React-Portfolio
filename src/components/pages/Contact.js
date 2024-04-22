@@ -11,7 +11,7 @@ function Contact() {
         <div className="aboutCard">
           <h3>Contact Me:</h3>
           <div className="contactGrid">
-            <p>Phone: (434) 250-5507</p>
+            <p>Phone: (202) 810-4464</p>
             <p><a href="mailto:bryantdalton19@gmail.com">
               bryantdalton19@gmail.com
             </a>
