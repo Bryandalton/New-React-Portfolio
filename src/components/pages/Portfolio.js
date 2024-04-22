@@ -4,7 +4,7 @@ import NavBar from "../NavBar";
 
 const projects = [
   {
-    img: "./images/cryptsndbrd.png",
+    img: "./images/cryptsndbrd.PNG",
     name: "Cryptid Sound Board",
     link: "https://bryandalton.github.io/cryptidsoundboard/",
     github: "https://github.com/Bryandalton/cryptidsoundboard",
@@ -12,7 +12,7 @@ const projects = [
       "A fun and responsive site to see what sounds cryptids might make!",
   },
   {
-    img: "./images/kandy-karma.jpg",
+    img: "./images/kandy-karma.JPG",
     name: "Kandy Karma",
     link: "https://bryandalton.github.io/kandykarmafrontend/",
     github: "https://github.com/Bryandalton/kandykarmafrontend",
@@ -32,6 +32,14 @@ const projects = [
     link: "https://codepen.io/Iwritebadcode/full/mdXdxpz",
     github: "https://codepen.io/Iwritebadcode/pen/mdXdxpz",
     description: 'Neon button that plays a "bigfoot" noise when clicked.',
+  },
+  {
+    img: "./images/Paint Your Mood.png",
+    name: "Paint your mood",
+    link: "https://bryandalton.github.io/Paint-your-mood/",
+    github: "https://github.com/Bryandalton/Paint-your-mood",
+    description:
+      "Website to display artwork from Chicago and Harvard art APIs.",
   },
   {
     img: "./images/Paint Your Mood.png",
