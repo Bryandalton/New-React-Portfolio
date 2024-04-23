@@ -89,7 +89,7 @@ export default function Carousel() {
     setSliderIndex(0)
   }
   if (sliderIndex < 0){
-    setSliderIndex(0)
+    setSliderIndex(progressBarValue - 1)
   }
   return (
     <>
