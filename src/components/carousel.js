@@ -88,6 +88,9 @@ export default function Carousel() {
   if (sliderIndex > progressBarValue - 1) {
     setSliderIndex(0)
   }
+  if (sliderIndex < 0){
+    setSliderIndex(0)
+  }
   return (
     <>
       <NavBar />
