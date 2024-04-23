@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div id="menu">
       <div id="menu-items">
-        <Link className="menu-item" to="/portfolio">
+        <Link className="menu-item" to="/carousel">
           Portfolio
         </Link>
         <Link className="menu-item" to="/about">

@@ -11,6 +11,7 @@ export default function Project(props) {
      <a className='projectLinks' href={props.github}>
         <img id='git' alt='Github' src='./images/github-white.png'></img>
       </a>
+      <p className='type'>{props.type}</p>
       <p className='description'>{props.description}</p>
     </div>
   )
