@@ -70,6 +70,24 @@ export default function Carousel() {
   const onPrevClick = () => {
     setSliderIndex(prev => prev - 1);
   };
+
+  const projectCount = projects.length
+  
+  const [itemsPerScreen, setItemsPerScreen] = useState(0);
+
+  const getItemsPerScreen = () => {
+    const itemsPerScreenValue = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--items-per-screen'));
+    setItemsPerScreen(itemsPerScreenValue);
+  };
+
+  useEffect(() => {
+    getItemsPerScreen(); // Call the function to set initial state
+  }, []); // Empty dependency array to run only on mount
+
+  const progressBarValue = projectCount / itemsPerScreen
+  if (sliderIndex > progressBarValue - 1) {
+    setSliderIndex(0)
+  }
   return (
     <>
       <NavBar />
