@@ -25,6 +25,7 @@ body {
 #header h1 {
   font-size: 5rem;
   text-decoration: underline;
+  text-align: center;
 }
 
 #header h4 {
